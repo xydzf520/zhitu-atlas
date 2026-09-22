@@ -1,0 +1,38 @@
+{
+  "name": "zhitu-atlas",
+  "private": true,
+  "version": "0.22.1",
+  "description": "职途 Atlas：本机桌面与网页求职工作台",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/atlas-project.mjs start",
+    "dev": "node scripts/atlas-project.mjs dev",
+    "build": "node scripts/atlas-project.mjs build",
+    "test": "node scripts/atlas-project.mjs test",
+    "typecheck": "node scripts/atlas-project.mjs typecheck",
+    "check:public": "node scripts/atlas-public-check.cjs",
+    "check:public:history": "node scripts/atlas-public-check.cjs --history",
+    "check:runtime": "node scripts/atlas-runtime-audit.cjs",
+    "licenses:collect": "node scripts/atlas-licenses.cjs",
+    "check:licenses:web": "node scripts/atlas-license-web-check.mjs",
+    "check": "node scripts/atlas-project.mjs check",
+    "web": "node scripts/atlas-project.mjs web",
+    "test:communication": "node --test tests/communication-quality.test.cjs tests/communication-reply.test.cjs tests/greeting.test.cjs tests/dashboard.test.cjs tests/hiring-guide.test.cjs",
+    "eval:communication": "node scripts/atlas-communication-suite.cjs"
+  },
+  "author": "Zhengfa Dong",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "0.19.12",
+    "@electron/asar": "3.2.8",
+    "puppeteer": "24.19.0"
+  },
+  "volta": {
+    "node": "22.22.1"
+  },
+  "engines": {
+    "pnpm": ">=8.15.9 <9.0.0",
+    "node": ">=22.13.0"
+  },
+  "packageManager": "pnpm@8.15.9"
+}

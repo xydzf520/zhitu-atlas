@@ -1,0 +1,95 @@
+:root[data-theme="daylight"] {
+  color-scheme: light;
+  --atlas-bg: #f5f6f8;
+  --atlas-panel: #ffffff;
+  --el-color-primary: #245ecb;
+  --el-color-primary-light-3: #4e7ddd;
+  --el-color-primary-light-5: #91b0eb;
+  --el-color-primary-light-7: #c7d8f5;
+  --el-color-primary-light-8: #dce7fb;
+  --el-color-primary-light-9: #eef4ff;
+  --el-color-primary-dark-2: #194bab;
+  --el-color-success: #15775b;
+  --el-color-success-light-7: #b8dfd1;
+  --el-color-success-light-9: #edf8f3;
+  --el-color-warning: #986016;
+  --el-color-warning-light-7: #ead6b3;
+  --el-color-warning-light-9: #fff7e8;
+  --el-color-danger: #bb3d48;
+  --el-color-danger-light-7: #ecc6ca;
+  --el-color-danger-light-9: #fdf0f1;
+  --el-color-info: #65758a;
+  --el-bg-color: #ffffff;
+  --el-bg-color-page: #f5f6f8;
+  --el-bg-color-overlay: #ffffff;
+  --el-text-color-primary: #1e2c42;
+  --el-text-color-regular: #43556d;
+  --el-text-color-secondary: #60728a;
+  --el-text-color-placeholder: #718198;
+  --el-border-color: #dce1e8;
+  --el-border-color-light: #e5e8ed;
+  --el-border-color-lighter: #edf1f7;
+  --el-border-color-extra-light: #f2f5f9;
+  --el-fill-color-blank: #ffffff;
+  --el-fill-color: #e8eef7;
+  --el-fill-color-light: #f5f8fc;
+  --el-fill-color-lighter: #f8fafd;
+  --el-fill-color-dark: #dde6f2;
+  --el-fill-color-darker: #cbd7e8;
+  --el-mask-color: rgba(26,42,63,.25);
+  --el-mask-color-extra-light: rgba(255,255,255,.85);
+  --el-font-family: var(--sans-serif-font-family);
+  --el-border-radius-base: 8px;
+  --el-box-shadow-light: 0 12px 36px rgba(30,55,90,.1);
+}
+body { background:var(--atlas-bg); color:var(--el-text-color-primary); }
+button,input,textarea,select,.el-table { font-family:var(--sans-serif-font-family); }
+* { scrollbar-width:thin; scrollbar-color:#b4c1d2 transparent; }
+:focus-visible { outline:2px solid var(--el-color-primary); outline-offset:3px; }
+::selection { background:#dce7fb; color:#1e2c42; }
+.el-button--primary { --el-button-text-color:#fff; --el-button-hover-text-color:#fff; --el-button-active-text-color:#fff; font-weight:600; }
+.el-button--primary.is-link,.el-button--primary.is-text { --el-button-text-color:var(--el-color-primary); --el-button-hover-text-color:var(--el-color-primary-dark-2); }
+.el-table { --el-table-header-bg-color:#f5f8fc; --el-table-tr-bg-color:#fff; --el-table-row-hover-bg-color:#f2f6fc; --el-table-current-row-bg-color:#eef4ff; --el-table-header-text-color:#536781; border-radius:10px; }
+.el-table th.el-table__cell { font-weight:600; padding:13px 0; }
+.el-table td.el-table__cell { padding:12px 0; }
+.el-dialog,.el-drawer { --el-dialog-border-radius:14px; }
+.el-overlay { background:rgba(26,42,63,.35); }
+@media (prefers-reduced-motion:reduce) { *,*::before,*::after { animation-duration:.01ms!important; transition-duration:.01ms!important; scroll-behavior:auto!important; } }
+.atlas-legacy-page { display:flex; flex-direction:column; flex:1; min-height:0; padding:28px 30px 18px; overflow:hidden; }
+.atlas-page-heading { flex-shrink:0; margin-bottom:24px; }
+.atlas-page-heading small { display:block; font-size:10px; letter-spacing:2px; color:var(--el-color-primary); margin-bottom:10px; }
+.atlas-page-heading h1 { font-size:26px; font-weight:600; margin:0 0 9px; letter-spacing:.3px; }
+.atlas-page-heading p { margin:0; color:var(--el-text-color-secondary); font-size:12px; line-height:1.7; }
+.atlas-route-content { display:flex; flex:1; min-width:0; min-height:0; overflow:hidden; }
+.atlas-route-content > * { flex:1; min-width:0; min-height:0; }
+.atlas-legacy-page .page-wrap { padding:0; }
+.atlas-dialog-heading { padding:20px 24px; border-bottom:1px solid var(--el-border-color-light); background:var(--atlas-panel); }
+.atlas-dialog-heading small { color:var(--el-color-primary); font-size:10px; letter-spacing:1.5px; }
+.atlas-dialog-heading h1 { font-size:20px; margin:8px 0 0; font-weight:600; }
+.atlas-surface { background:var(--atlas-panel); }
+.atlas-dialog-content { min-height:0; flex:1; overflow:auto; }
+.atlas-auxiliary { display:flex; flex-direction:column; height:100vh; overflow:hidden; }
+.atlas-auxiliary > .atlas-dialog-heading { flex-shrink:0; }
+/* Utility roots in older tools used viewport height; constrain them below the shared heading. */
+.atlas-dialog-content > *, .atlas-dialog-content > .h-screen { height:100%; box-sizing:border-box; }
+.atlas-auxiliary .atlas-dialog-content .first-run-readme, .atlas-auxiliary .atlas-dialog-content .llm-config-page, .atlas-auxiliary .atlas-dialog-content .resume-editor-page { height:100%; }
+@media(max-width:1050px){.atlas-legacy-page{padding:22px 20px 16px}}
+
+.atlas-rule { background:var(--el-border-color-light); }
+
+.atlas-table-error{display:flex;align-items:center;justify-content:space-between;gap:15px;padding:12px 16px;margin-bottom:14px;flex-shrink:0;border:1px solid var(--el-color-danger-light-7);border-radius:8px;background:var(--el-color-danger-light-9);color:var(--el-color-danger);font-size:12px;line-height:1.7}
+
+// One scroll surface inside analysis dialogs, with the title always reachable.
+.el-dialog.discovery-modal,.el-dialog.task-result,.el-dialog.atlas-contact-dialog,.el-dialog.atlas-paper-dialog{margin-top:4vh!important;margin-bottom:4vh!important;max-height:92vh;display:flex;flex-direction:column;box-sizing:border-box}
+.el-dialog.discovery-modal>.el-dialog__body,.el-dialog.task-result>.el-dialog__body,.el-dialog.atlas-contact-dialog>.el-dialog__body,.el-dialog.atlas-paper-dialog>.el-dialog__body{min-height:0;overflow-y:auto;overscroll-behavior:contain;padding:16px 24px 24px}
+.el-dialog.discovery-modal>.el-dialog__header,.el-dialog.task-result>.el-dialog__header,.el-dialog.atlas-contact-dialog>.el-dialog__header,.el-dialog.atlas-paper-dialog>.el-dialog__header{flex-shrink:0;padding:18px 24px;border-bottom:1px solid var(--el-border-color)}
+
+/* Consistent page rhythm; details stay accessible without dominating the work surface. */
+.atlas-route-content main > header h1{font-size:26px;font-weight:600;letter-spacing:0;line-height:1.3}
+.atlas-route-content main > header p{font-size:13px;line-height:1.6}
+.atlas-route-content main :is(.panel,.kpi,.metric-grid article,.metrics article){box-shadow:none}
+.atlas-route-content main .kpi{border-top:1px solid var(--el-border-color-light)}
+.atlas-route-content main .kpi-value{font-size:34px}
+.atlas-route-content main .panel-heading h2{font-size:17px;font-weight:600}
+.atlas-route-content details > summary{line-height:1.7}
+@media(max-width:1280px){.atlas-route-content main{padding-left:22px;padding-right:22px}.atlas-route-content main .filterbar{gap:10px;flex-wrap:wrap}}

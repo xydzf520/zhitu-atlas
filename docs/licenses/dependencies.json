@@ -1,0 +1,163 @@
+{
+  "checkedAt": "2026-09-22",
+  "scope": "Exact-version supplemental license texts; source files are kept unmodified, README license sections retain original bytes. No runtime inclusion claim.",
+  "packages": [
+    {
+      "name": "@esbuild/linux-x64",
+      "version": "0.19.12",
+      "license": "MIT",
+      "source": "https://raw.githubusercontent.com/evanw/esbuild/d7fd1ad35715cda76eb33343b7c07b275e402a2e/LICENSE.md",
+      "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681",
+      "metadataSource": "https://registry.npmjs.org/%40esbuild%2Flinux-x64/0.19.12",
+      "ref": "d7fd1ad35715cda76eb33343b7c07b275e402a2e",
+      "file": "dependencies/_esbuild_linux-x64-0.19.12.txt",
+      "method": "upstream-license"
+    },
+    {
+      "name": "@polka/url",
+      "version": "1.0.0-next.24",
+      "license": "MIT",
+      "source": "https://raw.githubusercontent.com/lukeed/polka/b7a236f2b5490b296a14f8423c1dfbc35c060ac7/license",
+      "sha256": "ba573393f24555ac0528612ad39665fab5bdcc80330a61096024bbf5f736526d",
+      "metadataSource": "https://registry.npmjs.org/%40polka%2Furl/1.0.0-next.24",
+      "ref": "b7a236f2b5490b296a14f8423c1dfbc35c060ac7",
+      "file": "dependencies/_polka_url-1.0.0-next.24.txt",
+      "method": "upstream-license"
+    },
+    {
+      "name": "@puppeteer/browsers",
+      "version": "2.10.8",
+      "license": "Apache-2.0",
+      "source": "https://raw.githubusercontent.com/puppeteer/puppeteer/5bedba6c1e7000bdd8fe36a79eccf2858ac8b1fe/LICENSE",
+      "sha256": "a27ca07269b3518550b2e83aed13eadd7d14d924b5864e14889b40cf227530ca",
+      "metadataSource": "https://registry.npmjs.org/%40puppeteer%2Fbrowsers/2.10.8",
+      "ref": "5bedba6c1e7000bdd8fe36a79eccf2858ac8b1fe",
+      "file": "dependencies/_puppeteer_browsers-2.10.8.txt",
+      "method": "upstream-license"
+    },
+    {
+      "name": "@rollup/rollup-linux-x64-gnu",
+      "version": "4.10.0",
+      "license": "MIT",
+      "source": "https://raw.githubusercontent.com/rollup/rollup/762420860765e8e46e24d48b38f5b98ca31735fa/LICENSE.md",
+      "sha256": "6d323228c4219eb79154f0c5a888d999b469ffd634db17eeb2230c9e9767dd2b",
+      "metadataSource": "https://registry.npmjs.org/%40rollup%2Frollup-linux-x64-gnu/4.10.0",
+      "ref": "762420860765e8e46e24d48b38f5b98ca31735fa",
+      "file": "dependencies/_rollup_rollup-linux-x64-gnu-4.10.0.txt",
+      "method": "upstream-license"
+    },
+    {
+      "name": "app-builder-lib",
+      "version": "24.9.1",
+      "license": "MIT",
+      "source": "https://raw.githubusercontent.com/electron-userland/electron-builder/v24.9.1/LICENSE",
+      "sha256": "bed8d0ab3e6031817f775a641ff37313b0f5591bc8ba0ed79b978dafbd4231ce",
+      "metadataSource": "https://registry.npmjs.org/app-builder-lib/24.9.1",
+      "ref": "v24.9.1",
+      "file": "dependencies/app-builder-lib-24.9.1.txt",
+      "method": "upstream-license"
+    },
+    {
+      "name": "degenerator",
+      "version": "5.0.1",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/degenerator/-/degenerator-5.0.1.tgz",
+      "file": "dependencies/degenerator-5.0.1.txt",
+      "method": "package-readme-license",
+      "sha256": "5aa012c5c5e970177d1ff9144121a598fa082434391061504b2d77a70289097f",
+      "sourceFile": "README.md",
+      "sourceSha256": "72da4948a54a285c3f6d2bc398147dc21ca082316919653dc7c1198dc55a271c",
+      "tarballIntegrity": "sha512-TllpMR/t0M5sqCXfj85i4XaAzxmS5tVA16dqvdkMwGmzI+dXLXnw3J+3Vdv7VKw+ThlTMboK6i9rnZ6Nntj5CQ==",
+      "metadataSource": "https://registry.npmjs.org/degenerator/5.0.1"
+    },
+    {
+      "name": "dmg-builder",
+      "version": "24.9.1",
+      "license": "MIT",
+      "source": "https://raw.githubusercontent.com/electron-userland/electron-builder/v24.9.1/LICENSE",
+      "sha256": "bed8d0ab3e6031817f775a641ff37313b0f5591bc8ba0ed79b978dafbd4231ce",
+      "metadataSource": "https://registry.npmjs.org/dmg-builder/24.9.1",
+      "ref": "v24.9.1",
+      "file": "dependencies/dmg-builder-24.9.1.txt",
+      "method": "upstream-license"
+    },
+    {
+      "name": "element-plus",
+      "version": "2.8.4",
+      "license": "MIT",
+      "source": "https://raw.githubusercontent.com/element-plus/element-plus/2.8.4/LICENSE",
+      "ref": "2.8.4",
+      "file": "element-plus-2.8.4.txt",
+      "method": "upstream-license",
+      "sha256": "0790118bb4d66681db1d63181f72ef68e632d632f6db0373ef87cf328561af27"
+    },
+    {
+      "name": "filelist",
+      "version": "1.0.4",
+      "license": "Apache-2.0",
+      "source": "https://raw.githubusercontent.com/mde/filelist/v1.0.4/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "metadataSource": "https://registry.npmjs.org/filelist/1.0.4",
+      "ref": "v1.0.4",
+      "file": "dependencies/filelist-1.0.4.txt",
+      "method": "upstream-license"
+    },
+    {
+      "name": "jake",
+      "version": "10.8.7",
+      "license": "Apache-2.0",
+      "source": "https://raw.githubusercontent.com/jakejs/jake/v10.8.7/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "metadataSource": "https://registry.npmjs.org/jake/10.8.7",
+      "ref": "v10.8.7",
+      "file": "dependencies/jake-10.8.7.txt",
+      "method": "upstream-license"
+    },
+    {
+      "name": "netmask",
+      "version": "2.0.2",
+      "license": "MIT",
+      "source": "https://registry.npmjs.org/netmask/-/netmask-2.0.2.tgz",
+      "file": "dependencies/netmask-2.0.2.txt",
+      "method": "package-readme-license",
+      "sha256": "d747fd55906274d3a8aba77a3fcbbfb7f3ee79cbc6029e4aa0fd750da6ed6fb2",
+      "sourceFile": "README.md",
+      "sourceSha256": "3bd46401ca72d9fce515e39d38f2e14e84cd748254ae03144db122aeff8d8e0a",
+      "tarballIntegrity": "sha512-dBpDMdxv9Irdq66304OLfEmQ9tbNRFnFTuZiLo+bD+r332bBmMJ8GBLXklIXXgxd3+v9+KUnZaUR5PJMa75Gsg==",
+      "metadataSource": "https://registry.npmjs.org/netmask/2.0.2"
+    },
+    {
+      "name": "puppeteer",
+      "version": "24.19.0",
+      "license": "Apache-2.0",
+      "source": "https://raw.githubusercontent.com/puppeteer/puppeteer/0c7962b473976be4c9849a756a99d51887924be5/LICENSE",
+      "sha256": "a27ca07269b3518550b2e83aed13eadd7d14d924b5864e14889b40cf227530ca",
+      "metadataSource": "https://registry.npmjs.org/puppeteer/24.19.0",
+      "ref": "0c7962b473976be4c9849a756a99d51887924be5",
+      "file": "dependencies/puppeteer-24.19.0.txt",
+      "method": "upstream-license"
+    },
+    {
+      "name": "puppeteer-core",
+      "version": "24.19.0",
+      "license": "Apache-2.0",
+      "source": "https://raw.githubusercontent.com/puppeteer/puppeteer/0c7962b473976be4c9849a756a99d51887924be5/LICENSE",
+      "sha256": "a27ca07269b3518550b2e83aed13eadd7d14d924b5864e14889b40cf227530ca",
+      "metadataSource": "https://registry.npmjs.org/puppeteer-core/24.19.0",
+      "ref": "0c7962b473976be4c9849a756a99d51887924be5",
+      "file": "dependencies/puppeteer-core-24.19.0.txt",
+      "method": "upstream-license"
+    },
+    {
+      "name": "sirv",
+      "version": "2.0.4",
+      "license": "MIT",
+      "source": "https://raw.githubusercontent.com/lukeed/sirv/50b1964b8a8342e14a711d47f793298c2a7aeeb7/license",
+      "sha256": "ba573393f24555ac0528612ad39665fab5bdcc80330a61096024bbf5f736526d",
+      "metadataSource": "https://registry.npmjs.org/sirv/2.0.4",
+      "ref": "50b1964b8a8342e14a711d47f793298c2a7aeeb7",
+      "file": "dependencies/sirv-2.0.4.txt",
+      "method": "upstream-license"
+    }
+  ]
+}

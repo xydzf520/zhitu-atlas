@@ -1,0 +1,31 @@
+{
+  "extends": "./tsconfig.base.json",
+  "include": [
+    "src/renderer/src/**/*.ts",
+    "src/renderer/src/**/*.vue",
+    "src/preload/**/*.d.ts",
+    "src/common/**/*.ts",
+    "src/common/**/*.json",
+    "web/**/*.ts",
+    "web/**/*.vue"
+  ],
+  "compilerOptions": {
+    "composite": true,
+    "types": [
+      "vite/client",
+      "element-plus/global"
+    ],
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@renderer/*": [
+        "src/renderer/src/*"
+      ]
+    }
+  }
+}

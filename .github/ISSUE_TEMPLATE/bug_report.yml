@@ -1,0 +1,23 @@
+name: 问题反馈
+description: 提交可复现的功能或交互问题
+body:
+  - type: markdown
+    attributes:
+      value: 请勿提交真实简历、聊天、密钥、Cookie 或数据库。涉及安全的问题请先阅读 SECURITY.md。
+  - type: input
+    id: environment
+    attributes:
+      label: 版本与系统
+      placeholder: Atlas 版本、Linux 发行版、桌面或网页
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤、预期和实际结果
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 脱敏错误、截图与任务阶段

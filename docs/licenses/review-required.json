@@ -1,0 +1,186 @@
+{
+  "checkedAt": "2026-09-22",
+  "scope": "Installed dependencies, including development and packaging tools. Not a runtime inclusion claim.",
+  "packages": [
+    {
+      "name": "app-builder-bin",
+      "version": "4.0.0",
+      "declaredLicense": "MIT",
+      "metadataSource": "https://registry.npmjs.org/app-builder-bin/4.0.0",
+      "repository": "develar/app-builder",
+      "ref": null,
+      "status": "Full license text not found in the installed package or examined exact-version upstream sources; a declaration is present.",
+      "attributionFiles": []
+    },
+    {
+      "name": "bluebird-lst",
+      "version": "1.0.9",
+      "declaredLicense": "MIT",
+      "metadataSource": "https://registry.npmjs.org/bluebird-lst/1.0.9",
+      "repository": {
+        "url": "git+https://github.com/develar/fs-extra-p.git",
+        "type": "git"
+      },
+      "ref": null,
+      "status": "Full license text not found in the installed package or examined exact-version upstream sources; a declaration is present.",
+      "attributionFiles": []
+    },
+    {
+      "name": "chromium-pickle-js",
+      "version": "0.2.0",
+      "declaredLicense": "MIT",
+      "metadataSource": "https://registry.npmjs.org/chromium-pickle-js/0.2.0",
+      "repository": {
+        "url": "git+https://github.com/electron/node-chromium-pickle-js.git",
+        "type": "git"
+      },
+      "ref": "72ecd4d52d8e676a595636e1ec9ba74060344137",
+      "status": "Full license text not found in the installed package or examined exact-version upstream sources; a declaration is present.",
+      "attributionFiles": []
+    },
+    {
+      "name": "compare-version",
+      "version": "0.1.2",
+      "declaredLicense": "MIT",
+      "metadataSource": "https://registry.npmjs.org/compare-version/0.1.2",
+      "repository": {
+        "url": "git://github.com/kevva/compare-version",
+        "type": "git"
+      },
+      "ref": null,
+      "status": "Full license text not found in the installed package or examined exact-version upstream sources; a declaration is present.",
+      "attributionFiles": []
+    },
+    {
+      "name": "de-indent",
+      "version": "1.0.2",
+      "declaredLicense": "MIT",
+      "metadataSource": "https://registry.npmjs.org/de-indent/1.0.2",
+      "repository": {
+        "url": "git+https://github.com/yyx990803/de-indent.git",
+        "type": "git"
+      },
+      "ref": "5861bd7a39c09f0056fd361d82e570e56bd2c275",
+      "status": "Full license text not found in the installed package or examined exact-version upstream sources; a declaration is present.",
+      "attributionFiles": []
+    },
+    {
+      "name": "eastasianwidth",
+      "version": "0.2.0",
+      "declaredLicense": "MIT",
+      "metadataSource": "https://registry.npmjs.org/eastasianwidth/0.2.0",
+      "repository": {
+        "url": "git://github.com/komagata/eastasianwidth.git",
+        "type": "git"
+      },
+      "ref": "b89f04d44dc786885615e94cd6e2ba1ef7866fa4",
+      "status": "Full license text not found in the installed package or examined exact-version upstream sources; a declaration is present.",
+      "attributionFiles": []
+    },
+    {
+      "name": "err-code",
+      "version": "2.0.3",
+      "declaredLicense": "MIT",
+      "metadataSource": "https://registry.npmjs.org/err-code/2.0.3",
+      "repository": {
+        "url": "git://github.com/IndigoUnited/js-err-code.git",
+        "type": "git"
+      },
+      "ref": "92511d41a6a926c94c9d11493404867b1e92a77a",
+      "status": "Full license text not found in the installed package or examined exact-version upstream sources; a declaration is present.",
+      "attributionFiles": []
+    },
+    {
+      "name": "keyv",
+      "version": "4.5.4",
+      "declaredLicense": "MIT",
+      "metadataSource": "https://registry.npmjs.org/keyv/4.5.4",
+      "repository": {
+        "url": "git+https://github.com/jaredwray/keyv.git",
+        "type": "git"
+      },
+      "ref": null,
+      "status": "Full license text not found in the installed package or examined exact-version upstream sources; a declaration is present.",
+      "attributionFiles": []
+    },
+    {
+      "name": "lazy-val",
+      "version": "1.0.5",
+      "declaredLicense": "MIT",
+      "metadataSource": "https://registry.npmjs.org/lazy-val/1.0.5",
+      "repository": {
+        "url": "git+https://github.com/develar/lazy-val.git",
+        "type": "git"
+      },
+      "ref": "b69ad4119f1b19bdab13c61ee2fcc88d46b89071",
+      "status": "Full license text not found in the installed package or examined exact-version upstream sources; a declaration is present.",
+      "attributionFiles": []
+    },
+    {
+      "name": "lodash-unified",
+      "version": "1.0.3",
+      "declaredLicense": "MIT",
+      "metadataSource": "https://registry.npmjs.org/lodash-unified/1.0.3",
+      "repository": null,
+      "ref": null,
+      "status": "Full license text not found in the installed package or examined exact-version upstream sources; a declaration is present.",
+      "attributionFiles": []
+    },
+    {
+      "name": "temp-file",
+      "version": "3.4.0",
+      "declaredLicense": "MIT",
+      "metadataSource": "https://registry.npmjs.org/temp-file/3.4.0",
+      "repository": {
+        "url": "git+https://github.com/develar/temp-file.git",
+        "type": "git"
+      },
+      "ref": "3534650dce58cb671fe3b4655e5eeeb036ff1839",
+      "status": "Full license text not found in the installed package or examined exact-version upstream sources; a declaration is present.",
+      "attributionFiles": []
+    },
+    {
+      "name": "tmp-promise",
+      "version": "3.0.3",
+      "declaredLicense": "MIT",
+      "metadataSource": "https://registry.npmjs.org/tmp-promise/3.0.3",
+      "repository": {
+        "url": "git://github.com/benjamingr/tmp-promise.git",
+        "type": "git"
+      },
+      "ref": "7a9d92612d24791664669596c2705313d459ce7f",
+      "status": "Full license text not found in the installed package or examined exact-version upstream sources; a declaration is present.",
+      "attributionFiles": []
+    },
+    {
+      "name": "truncate-utf8-bytes",
+      "version": "1.0.2",
+      "declaredLicense": "WTFPL",
+      "metadataSource": "https://registry.npmjs.org/truncate-utf8-bytes/1.0.2",
+      "repository": {
+        "url": "git+https://github.com/parshap/truncate-utf8-bytes.git",
+        "type": "git"
+      },
+      "ref": "c8fcebc8be093c8bd8db1e7d75c09b9fce7e4708",
+      "status": "Full license text not found in the installed package or examined exact-version upstream sources; a declaration is present.",
+      "attributionFiles": [
+        "AUTHORS"
+      ]
+    },
+    {
+      "name": "utf8-byte-length",
+      "version": "1.0.4",
+      "declaredLicense": "WTFPL",
+      "metadataSource": "https://registry.npmjs.org/utf8-byte-length/1.0.4",
+      "repository": {
+        "url": "git+https://github.com/parshap/utf8-byte-length.git",
+        "type": "git"
+      },
+      "ref": "c369b9b4e23ac288fcce9a2aa8fe588fed3b7d4d",
+      "status": "Full license text not found in the installed package or examined exact-version upstream sources; a declaration is present.",
+      "attributionFiles": [
+        "AUTHORS"
+      ]
+    }
+  ]
+}

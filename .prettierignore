@@ -1,0 +1,11 @@
+node_modules/
+**/out/
+**/dist/
+**/web-dist/
+artifacts/
+.local-*/
+private/
+storage/
+attachments/
+pnpm-lock.yaml
+packages/ui/src/common/data/*.json

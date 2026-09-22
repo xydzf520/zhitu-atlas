@@ -1,0 +1,17 @@
+# Defense in depth for git archive; CI also rejects tracked private files.
+**/private export-ignore
+**/storage export-ignore
+**/attachments export-ignore
+artifacts export-ignore
+.local-backups export-ignore
+.local-build export-ignore
+**/config/llm.json export-ignore
+**/credentials.json export-ignore
+**/secrets.json export-ignore
+**/atlas-runtime.json export-ignore
+.env export-ignore
+.env.* export-ignore
+.env.example -export-ignore
+*.atlas export-ignore
+*.pem export-ignore
+*.key export-ignore

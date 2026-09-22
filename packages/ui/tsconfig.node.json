@@ -1,0 +1,22 @@
+{
+  "extends": "./tsconfig.base.json",
+  "include": [
+    "electron.vite.config.ts",
+    "src/main/**/*.ts",
+    "src/preload/**/*.ts",
+    "src/common/**/*.ts",
+    "src/common/**/*.json"
+  ],
+  "compilerOptions": {
+    "composite": true,
+    "types": [
+      "node",
+      "electron-vite/node"
+    ],
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ]
+  }
+}

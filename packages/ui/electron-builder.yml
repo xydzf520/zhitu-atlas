@@ -1,0 +1,18 @@
+appId: com.zhitu.atlas
+productName: 职途 Atlas
+executableName: zhitu-atlas
+directories:
+  buildResources: resources
+  output: ../../artifacts/releases
+icon: resources/icon.png
+files:
+  - out/**
+  - web-dist/**
+  - resources/icon.png
+  - package.json
+linux:
+  executableName: zhitu-atlas
+  target: dir
+  category: Office
+  maintainer: Zhengfa Dong
+npmRebuild: false
